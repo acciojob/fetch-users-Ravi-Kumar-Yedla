@@ -1,4 +1,3 @@
-// src/UserTable.js
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -63,7 +62,7 @@ const UserTable = () => {
         </thead>
         <tbody>
             <tr>
-                <td colSpan="4">No data found</td>
+                <td colSpan="4">No data found to display.</td>
             </tr>
         </tbody>
     </table>
@@ -73,6 +72,3 @@ const UserTable = () => {
 };
 
 export default UserTable;
-
-
-
